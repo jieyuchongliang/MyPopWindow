@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fj.mypopwindow.MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="show" />
+
+            <Button
+                android:id="@+id/btn_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="age" />
+
+            <Button
+                android:id="@+id/btn_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="name" />
+
+            <Button
+                android:id="@+id/btn_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="address" />
+
+            <Button
+                android:id="@+id/btn_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pwd" />
+
+            <Button
+                android:id="@+id/btn_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sex" />
+
+            <Button
+                android:id="@+id/btn_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="height" />
+
+            <Button
+                android:id="@+id/btn_county"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="county" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
